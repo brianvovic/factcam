@@ -25,7 +25,7 @@
     't3': 'Vệ sinh & dịch vụ', 't3s': 'Đã đến, trước/sau, bàn giao chìa khóa', 't4': 'Kiểm tra & kỹ thuật', 't4s': 'Đạt, không đạt, chỉ số đồng hồ',
     't5': 'Cho thuê & bàn giao xe', 't5s': 'Nhận, trả, hư hỏng có sẵn, số km', 't6': 'Bảo vệ & tuần tra', 't6s': 'Điểm tuần tra, bình thường, sự cố',
     't7': 'Chấm công', 't7s': 'Vào ca, tan ca kèm giờ và vị trí', 't8': 'Bảng công trình', 't8s': 'Tem dạng bảng công trình cho hồ sơ thi công',
-    'shots.1': 'Tem trực tiếp', 'shots.2': '6 kiểu tem', 'shots.3': 'Chi tiết bằng chứng', 'shots.4': 'Báo cáo PDF cả ca',
+    'shots.1': 'Công cụ một chạm', 'shots.2': '9 kiểu tem', 'shots.3': 'Chi tiết bằng chứng', 'shots.4': 'Báo cáo PDF cả ca',
     'band.title': 'Khách hàng tự kiểm tra – không cần tải ảnh lên', 'band.text': 'Trang Kiểm tra ảnh đọc dấu vân tay SHA-256, giờ và GPS trong file ngay trên máy người xem, đối chiếu với đoạn bằng chứng – và cả một file sao lưu ZIP.',
     'band.cta': 'Mở trang kiểm tra', 'band.c1': 'Khớp dấu vân tay SHA-256', 'band.c2': 'Đối chiếu ID, giờ, vị trí', 'band.c3': 'Kiểm tra cả file sao lưu ZIP', 'band.c4': 'In báo cáo kiểm tra',
     'price.eyebrow': 'Bảng giá', 'price.title': 'Miễn phí cho mỗi ca. Pro khi bạn bận.', 'price.sub': 'Bản miễn phí giữ nguyên chất lượng bằng chứng. Pro bỏ giới hạn và quảng cáo.',
