@@ -35,7 +35,7 @@
     'q2': 'Không có sóng thì sao?', 'a2': 'Giờ, GPS và tem vẫn hoạt động. Địa chỉ hiện khi máy tra được; toạ độ luôn được đóng dấu.',
     'q3': 'Khách kiểm tra ảnh là thật bằng cách nào?', 'a3': 'Gửi file gốc và đoạn bằng chứng. Họ mở trang Kiểm tra ảnh, thả file vào – thấy ngay có khớp hay không, kèm giờ và GPS.',
     'q4': 'Nền tảng giao hàng có chấp nhận ảnh này không?', 'a4': 'App giúp ảnh rõ ràng và khó bị bác hơn, nhưng mỗi nền tảng tự quyết định. Hãy tuân theo quy định chụp ảnh của họ.',
-    'more': 'Thêm câu trả lời và liên hệ →', 'foot.na': 'Không liên kết với nền tảng giao hàng nào.',
+    'more': 'Thêm câu trả lời và liên hệ →', 'foot.na': 'Không liên kết với nền tảng giao hàng nào.', 'foot.photos': 'Ảnh màn hình là app thật với ảnh mẫu:',
     // verify page
     'v.title': 'Kiểm tra ảnh bằng chứng', 'v.lead': 'Xác nhận ảnh hoặc video chưa bị chỉnh sửa kể từ lúc chụp, và đọc giờ, GPS lưu bên trong. Chạy hoàn toàn trên thiết bị này – không tải file lên đâu cả.',
     'v.files': 'Thả ảnh, video hoặc file sao lưu ZIP', 'v.files2': 'hoặc bấm để chọn · được chọn nhiều file · nên dùng file gốc, không dùng ảnh chụp màn hình',
@@ -62,7 +62,7 @@
     's5t': 'Đẹp cho khoảnh khắc cá nhân', 's5': 'Tem Nhật ký biến chuyến đi và sự kiện thành kỷ niệm có ngày giờ, địa điểm.',
     'st1': 'loại công việc có màu riêng', 'st2': 'kiểu tem', 'st3': 'ngôn ngữ', 'st4': 'ảnh bị chúng tôi tải lên',
     'gal.eyebrow': 'Bên trong app', 'gal.title': 'Màn hình thật. Không phải ảnh dựng.',
-    'g1': 'Chọn công việc', 'g1s': '12 ngành + cá nhân', 'g2': 'Kiểu tem', 'g2s': 'Xem trước trực tiếp', 'g3': 'Lịch sử', 'g3s': 'Tìm, lọc, xuất báo cáo', 'g4': 'Báo cáo bằng chứng PDF', 'g4s': 'Bìa, mục lục, dấu vân tay, cam kết',
+    'g1': 'Chọn công việc', 'g1s': '12 ngành + cá nhân', 'g2': 'Chi tiết bằng chứng', 'g2s': 'Kiểm tra giờ, địa chỉ, GPS, dấu vân tay', 'g3': 'Lịch sử', 'g3s': 'Tìm, lọc, xuất báo cáo', 'g4': 'Báo cáo bằng chứng PDF', 'g4s': 'Bìa, mục lục, dấu vân tay, cam kết',
     'hn.t': 'Nói thật:', 'hn.b': 'GPS lấy từ vệ tinh nên vị trí, giờ và tem vẫn chạy khi không có 3G/4G. Địa chỉ đường, kiểm tra giờ qua mạng, quảng cáo và mua gói cần internet – khi mất mạng, tem ghi toạ độ và địa chỉ sẽ điền sau khi có mạng.',
     'free.3b': 'Mọi loại công việc, quét mã, chữ ký, trước/sau, video 15 giây', 'free.5': 'Tem Cổ điển, Đồng hồ lớn, Tối giản và Nhật ký',
     'pro.2b': 'Báo cáo PDF bất cứ lúc nào, có tên công ty trên bìa', 'pro.4b': '6 kiểu tem thiết kế, phông chữ, thêm màu, độ đậm nền', 'pro.5': 'Trạng thái tuỳ chỉnh',

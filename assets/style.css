@@ -256,3 +256,6 @@ footer .sp { margin-left: auto; }
   .nav a.cta { padding: 7px 10px; }
   .nav a[href$="support/"], .nav a[href="./"]:not(.cta) { display: none; }
 }
+
+footer .credits { display: block; margin-top: 10px; font-size: 12px; color: var(--muted); line-height: 1.6; }
+footer .credits a { color: inherit; text-decoration: underline; }
