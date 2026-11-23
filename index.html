@@ -4,49 +4,24 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>FactCam – Verified Proof Photo Camera</title>
-<meta name="description" content="Stamp every work photo with verified time, exact address and GPS, plus a tamper-evident fingerprint. Offline, no account. Clients can verify photos in their browser.">
+<meta name="description" content="Stamp every photo with verified time, exact address and GPS, plus a tamper-evident fingerprint. For deliveries, trades, inspections, patrols and personal moments. No account; photos stay on your phone.">
 <meta property="og:title" content="FactCam – Verified Proof Photo Camera">
-<meta property="og:description" content="Verified time, address and GPS on every work photo. Offline, no account, verifiable in any browser.">
-<meta property="og:image" content="assets/shot-tools.jpg">
-<meta name="theme-color" content="#0b1018">
+<meta property="og:description" content="Verified time, address and GPS on every photo. Professional PDF reports. Anyone can verify a photo in their browser.">
+<meta property="og:image" content="assets/app-construction.jpg">
+<meta name="theme-color" content="#070a10">
 <link rel="icon" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/motion.css">
+<script>document.documentElement.classList.add('js')</script>
 <script src="assets/site.js" defer></script>
 </head>
 <body>
-<svg width="0" height="0" style="position:absolute" aria-hidden="true">
-  <defs>
-    <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
-    <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
-    <symbol id="i-video" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 8-6 4 6 4V8Z"/><rect x="2" y="6" width="14" height="12" rx="2"/></symbol>
-    <symbol id="i-scan" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7V5a2 2 0 0 1 2-2h2M17 3h2a2 2 0 0 1 2 2v2M21 17v2a2 2 0 0 1-2 2h-2M7 21H5a2 2 0 0 1-2-2v-2M7 8v8M11 8v8M15 8v8M18 8v8"/></symbol>
-    <symbol id="i-compare" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M12 3v18"/><path d="m15 9 2 3-2 3M9 9l-2 3 2 3"/></symbol>
-    <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></symbol>
-    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></symbol>
-    <symbol id="i-wifi-off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m2 2 20 20M8.5 16.5a5 5 0 0 1 7 0M2 8.8a15 15 0 0 1 4.2-2.6M10.7 5.1A15 15 0 0 1 22 8.8M5 12.9a10 10 0 0 1 5.2-2.8M16.9 10.6a10 10 0 0 1 2.1 1.3M12 20h.01"/></symbol>
-    <symbol id="i-user-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="m17 8 5 5M22 8l-5 5"/></symbol>
-    <symbol id="i-lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></symbol>
-    <symbol id="i-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></symbol>
-    <symbol id="i-truck" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 17h4V5H2v12h3M14 9h4l4 4v4h-2"/><circle cx="7.5" cy="17.5" r="2.5"/><circle cx="17.5" cy="17.5" r="2.5"/></symbol>
-    <symbol id="i-hammer" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 12-8.4 8.4a2.1 2.1 0 0 1-3-3L12 9"/><path d="M17.6 15 22 10.6M20.9 11.7l-1.3-1.3a1 1 0 0 1 0-1.4l.6-.6-5.5-5.5-3.1 1.6 1.4 1.4-1.4 1.4 4.2 4.2 1.4-1.4 1.3 1.3"/></symbol>
-    <symbol id="i-spark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/></symbol>
-    <symbol id="i-clipboard" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="m9 14 2 2 4-4"/></symbol>
-    <symbol id="i-car" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 17h2v-4l-2-5H5L3 13v4h2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/><path d="M9 17h6M3 13h18"/></symbol>
-    <symbol id="i-guard" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/></symbol>
-    <symbol id="i-badge" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="11" r="2"/><path d="M15 10h2M15 14h2M6 16c.5-1.5 1.6-2 3-2s2.5.5 3 2"/></symbol>
-    <symbol id="i-board" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="14" rx="2"/><path d="M2 9h20M9 9v9M8 22l4-4 4 4"/></symbol>
-    <symbol id="i-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/><path d="m8 11 2 2 4-4"/></symbol>
-    <symbol id="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M4 3.5v17a1 1 0 0 0 1.5.9l15-8.5a1 1 0 0 0 0-1.8l-15-8.5A1 1 0 0 0 4 3.5Z"/></symbol>
-    <symbol id="i-apple" viewBox="0 0 24 24" fill="currentColor"><path d="M16.4 12.6c0-2.4 2-3.6 2.1-3.7-1.1-1.7-2.9-1.9-3.5-1.9-1.5-.2-2.9.9-3.6.9-.8 0-1.9-.9-3.1-.8-1.6 0-3.1.9-3.9 2.4-1.7 2.9-.4 7.2 1.2 9.6.8 1.2 1.7 2.5 3 2.4 1.2 0 1.6-.8 3.1-.8s1.8.8 3.1.8c1.3 0 2.1-1.2 2.9-2.4.9-1.3 1.3-2.6 1.3-2.7 0 0-2.6-1-2.6-3.8ZM14 5.4c.7-.8 1.1-1.9 1-3-1 0-2.1.7-2.8 1.5-.6.7-1.2 1.8-1 2.9 1.1.1 2.1-.6 2.8-1.4Z"/></symbol>
-  </defs>
-</svg>
-
 <header class="top">
   <div class="wrap">
     <a class="logo" href="./"><img src="assets/icon.png" alt="">FactCam</a>
     <nav class="nav">
-      <a class="hide-sm" href="#features" data-i18n="nav.features">Features</a>
+      <a class="hide-sm" href="#how" data-i18n="nav.features">Features</a>
       <a class="hide-sm" href="#trades" data-i18n="nav.trades">Trades</a>
       <a class="hide-sm" href="#pricing" data-i18n="nav.pricing">Pricing</a>
       <a href="support/" data-i18n="nav.help">Help</a>
@@ -57,133 +32,154 @@
 </header>
 
 <main>
-  <div class="hero">
+  <section class="hero2" style="padding:0">
+    <div class="aurora" aria-hidden="true"><span></span><span></span><span></span></div>
+    <div class="grid-bg" aria-hidden="true"></div>
     <div class="wrap">
-      <div>
+      <div class="reveal">
         <span class="pill"><b>NEW</b><span data-i18n="hero.pill">Verified proof photos</span></span>
-        <h1 data-i18n="hero.title">Proof photos <em>no one can argue with.</em></h1>
-        <p class="lead" data-i18n="hero.lead">Every photo is stamped with verified time, the exact address and GPS, right on the picture, plus a tamper-evident fingerprint. When a customer says “never delivered” or “that damage wasn’t there”, you have proof.</p>
+        <h1><span data-i18n="h2.a">Proof photos for</span><br>
+          <span class="rotator" aria-live="polite">
+            <b class="on" style="color:#2ee59d" data-i18n="r1">deliveries.</b>
+            <b style="color:#f59e0b" data-i18n="r2">job sites.</b>
+            <b style="color:#3b82f6" data-i18n="r3">inspections.</b>
+            <b style="color:#f43f5e" data-i18n="r4">patrols.</b>
+            <b style="color:#a855f7" data-i18n="r5">car rentals.</b>
+            <b style="color:#f472b6" data-i18n="r6">your journeys.</b>
+          </span>
+        </h1>
+        <p class="lead" data-i18n="hero.lead2">Verified time, the exact address and GPS on every photo – plus a tamper-evident fingerprint and a professional PDF report. When someone says “never delivered” or “that damage wasn’t there”, you have proof.</p>
         <div class="actions">
-          <span class="btn ghost store" aria-label="Coming soon on Google Play"><svg class="i"><use href="#i-play"/></svg><span><small data-i18n="hero.play">Coming soon on</small>Google Play</span></span>
-          <span class="btn ghost store" aria-label="Coming soon on the App Store"><svg class="i"><use href="#i-apple"/></svg><span><small data-i18n="hero.ios">Coming soon on the</small>App Store</span></span>
-          <a class="btn primary" href="verify/"><svg class="i"><use href="#i-search"/></svg><span data-i18n="hero.verify">Verify a photo</span></a>
+          <span class="btn ghost store"><svg class="i" viewBox="0 0 24 24" fill="currentColor"><path d="M4 3.5v17a1 1 0 0 0 1.5.9l15-8.5a1 1 0 0 0 0-1.8l-15-8.5A1 1 0 0 0 4 3.5Z"/></svg><span><small data-i18n="hero.play">Coming soon on</small>Google Play</span></span>
+          <span class="btn ghost store"><svg class="i" viewBox="0 0 24 24" fill="currentColor"><path d="M16.4 12.6c0-2.4 2-3.6 2.1-3.7-1.1-1.7-2.9-1.9-3.5-1.9-1.5-.2-2.9.9-3.6.9-.8 0-1.900-.9-3.1-.8-1.6 0-3.1.9-3.9 2.4-1.7 2.9-.4 7.2 1.2 9.6.8 1.2 1.7 2.5 3 2.4 1.2 0 1.6-.8 3.1-.8s1.8.8 3.1.8c1.3 0 2.1-1.2 2.9-2.4.9-1.3 1.3-2.6 1.3-2.7 0 0-2.6-1-2.6-3.8ZM14 5.4c.7-.8 1.1-1.9 1-3-1 0-2.1.7-2.8 1.5-.6.7-1.2 1.8-1 2.9 1.1.1 2.1-.6 2.8-1.4Z"/></svg><span><small data-i18n="hero.ios">Coming soon on the</small>App Store</span></span>
+          <a class="btn primary" href="verify/" data-i18n="hero.verify">Verify a photo</a>
         </div>
         <div class="trust">
-          <span><svg><use href="#i-wifi-off"/></svg><span data-i18n="trust.offline">Works offline</span></span>
-          <span><svg><use href="#i-user-x"/></svg><span data-i18n="trust.account">No account</span></span>
-          <span><svg><use href="#i-lock"/></svg><span data-i18n="trust.private">Photos stay on your phone</span></span>
-          <span><svg><use href="#i-globe"/></svg><span data-i18n="trust.lang">19 languages</span></span>
+          <span data-i18n="trust2.gps">✓ GPS works without mobile data</span>
+          <span data-i18n="trust2.account">✓ No account</span>
+          <span data-i18n="trust2.private">✓ Photos stay on your phone</span>
+          <span data-i18n="trust2.lang">✓ 19 languages</span>
         </div>
       </div>
-      <div class="stage">
-        <div class="phone"><img src="assets/shot-tools.jpg" width="540" height="1200" alt="Camera with a live stamp showing status, time, address and GPS"></div>
-        <div class="float f1"><span class="dot"><svg class="i"><use href="#i-clock"/></svg></span><span><span data-i18n="float.time">Time verified</span><small data-i18n="float.time2">network + satellite</small></span></div>
-        <div class="float f2"><span class="dot"><svg class="i"><use href="#i-pin"/></svg></span><span><span data-i18n="float.addr">House # ±1</span><small data-i18n="float.addr2">one-tap fix</small></span></div>
-        <div class="float f3"><span class="dot"><svg class="i"><use href="#i-shield"/></svg></span><span><span data-i18n="float.hash">SHA-256</span><small data-i18n="float.hash2">tamper-evident</small></span></div>
+      <div class="stack reveal d2" aria-hidden="true">
+        <div class="device d2"><img src="assets/app-personal.jpg" alt="" width="600" height="1339"></div>
+        <div class="device d3"><img src="assets/app-delivery.jpg" alt="" width="600" height="1339"></div>
+        <div class="device d1"><img src="assets/app-construction.jpg" alt="" width="600" height="1339"></div>
+        <div class="chip-float cf1"><i style="background:rgba(46,229,157,.16);color:#2ee59d">✓</i><span><span data-i18n="float.time">Time verified</span><small data-i18n="float.time2">network + satellite</small></span></div>
+        <div class="chip-float cf2"><i style="background:rgba(59,130,246,.16);color:#60a5fa">⌂</i><span><span data-i18n="float.addr">House # ±1</span><small data-i18n="float.addr2">one-tap fix</small></span></div>
+        <div class="chip-float cf3"><i style="background:rgba(245,158,11,.16);color:#fbbf24">#</i><span>SHA-256<small data-i18n="float.hash2">tamper-evident</small></span></div>
       </div>
+    </div>
+  </section>
+
+  <div class="marquee" id="trades" aria-label="Trades">
+    <div class="track">
+      <span class="tag" style="--c:#22c55e" data-i18n="t1">Delivery</span>
+      <span class="tag" style="--c:#f59e0b" data-i18n="t2">Construction & repair</span>
+      <span class="tag" style="--c:#0ea5e9" data-i18n="t9">Maintenance & pest control</span>
+      <span class="tag" style="--c:#06b6d4" data-i18n="t3">Cleaning & home services</span>
+      <span class="tag" style="--c:#3b82f6" data-i18n="t4">Inspection & field service</span>
+      <span class="tag" style="--c:#a855f7" data-i18n="t5">Rental & vehicle handover</span>
+      <span class="tag" style="--c:#ef4444" data-i18n="t10">Insurance & accidents</span>
+      <span class="tag" style="--c:#ec4899" data-i18n="t11">Field sales & retail</span>
+      <span class="tag" style="--c:#84cc16" data-i18n="t12">Agriculture & gardens</span>
+      <span class="tag" style="--c:#f43f5e" data-i18n="t6">Security patrol</span>
+      <span class="tag" style="--c:#14b8a6" data-i18n="t7">Attendance</span>
+      <span class="tag" style="--c:#f472b6" data-i18n="t13">Personal & travel</span>
     </div>
   </div>
 
-  <section>
-    <div class="wrap center">
-      <span class="eyebrow" data-i18n="how.eyebrow">How it works</span>
-      <h2 data-i18n="how.title">Three steps, under three seconds</h2>
-      <p class="sub" data-i18n="how.sub">No menus to dig through. Open, shoot, done – the stamp you see is exactly what gets saved.</p>
-      <div class="steps" style="text-align:left">
-        <div class="step"><h3 data-i18n="how.1t">Pick a status</h3><p data-i18n="how.1">Left at door, Work completed, Checkpoint visited… matched to your job.</p></div>
-        <div class="step"><h3 data-i18n="how.2t">Shoot, or hold to record</h3><p data-i18n="how.2">Time, address, GPS, order number and signature are burned into the photo or video.</p></div>
-        <div class="step"><h3 data-i18n="how.3t">Send it to support</h3><p data-i18n="how.3">Copy a ready-made dispute message, share the photo or a PDF of the shift. Clients can verify it online.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <section id="features" style="padding-top:0">
+  <section id="how">
     <div class="wrap">
-      <span class="eyebrow" data-i18n="feat.eyebrow">Features</span>
-      <h2 data-i18n="feat.title">Built for the field, not the studio</h2>
-      <p class="sub" data-i18n="feat.sub">Everything a worker needs for proof that holds up – and nothing they don’t.</p>
-      <div class="grid">
-        <div class="card"><div class="ico"><svg class="i"><use href="#i-pin"/></svg></div><h3 data-i18n="f1t">Exact address, fixable</h3><p data-i18n="f1">House number off by one? Tap −1 / +1. The fix stays with that stop and clears when you move on.</p></div>
-        <div class="card"><div class="ico"><svg class="i"><use href="#i-clock"/></svg></div><h3 data-i18n="f2t">Time you can’t fake</h3><p data-i18n="f2">Checked against network and satellite time, so a wrong phone clock never ruins your proof.</p></div>
-        <div class="card"><div class="ico"><svg class="i"><use href="#i-video"/></svg></div><h3 data-i18n="f3t">Photo or video</h3><p data-i18n="f3">Hold the shutter to record. The clock keeps running inside the video, second by second.</p></div>
-        <div class="card"><div class="ico"><svg class="i"><use href="#i-scan"/></svg></div><h3 data-i18n="f4t">Order number & signature</h3><p data-i18n="f4">Scan the label barcode or QR and let the customer sign with a finger. Both go on the stamp.</p></div>
-        <div class="card"><div class="ico"><svg class="i"><use href="#i-compare"/></svg></div><h3 data-i18n="f5t">Before / after</h3><p data-i18n="f5">The “before” photo appears faded over the camera to line up the shot, then share both side by side.</p></div>
-        <div class="card"><div class="ico"><svg class="i"><use href="#i-search"/></svg></div><h3 data-i18n="f6t">Anyone can verify</h3><p data-i18n="f6">Clients drop the file into our verify page: fingerprint, time and GPS – checked in their own browser.</p></div>
+      <div class="center reveal">
+        <span class="eyebrow" data-i18n="how.eyebrow">How it works</span>
+        <h2 data-i18n="how2.title">Built like a camera, not a form</h2>
+        <p class="sub" data-i18n="how2.sub">Open, pick a status, shoot. Everything else is one tap away – and only when you need it.</p>
       </div>
-    </div>
-  </section>
-
-  <section id="trades" style="padding-top:0">
-    <div class="wrap">
-      <span class="eyebrow" data-i18n="trades.eyebrow">Trades</span>
-      <h2 data-i18n="trades.title">One camera, tuned to your job</h2>
-      <p class="sub" data-i18n="trades.sub">Choose a work type for matching status tags and tools. Switch any time.</p>
-      <div class="trades">
-        <div class="trade"><div class="ico"><svg class="i"><use href="#i-truck"/></svg></div><div><b data-i18n="t1">Delivery</b><span data-i18n="t1s">Left at door, handed over, failed attempts</span></div></div>
-        <div class="trade"><div class="ico"><svg class="i"><use href="#i-hammer"/></svg></div><div><b data-i18n="t2">Construction & repair</b><span data-i18n="t2s">Before, in progress, completed, materials</span></div></div>
-        <div class="trade"><div class="ico"><svg class="i"><use href="#i-spark"/></svg></div><div><b data-i18n="t3">Cleaning & home services</b><span data-i18n="t3s">Arrived, before/after, keys handed over</span></div></div>
-        <div class="trade"><div class="ico"><svg class="i"><use href="#i-clipboard"/></svg></div><div><b data-i18n="t4">Inspection & field service</b><span data-i18n="t4s">Passed, failed, meter readings</span></div></div>
-        <div class="trade"><div class="ico"><svg class="i"><use href="#i-car"/></svg></div><div><b data-i18n="t5">Rental & vehicle handover</b><span data-i18n="t5s">Pick-up, return, existing damage, odometer</span></div></div>
-        <div class="trade"><div class="ico"><svg class="i"><use href="#i-guard"/></svg></div><div><b data-i18n="t6">Security patrol</b><span data-i18n="t6s">Checkpoints, all clear, incidents</span></div></div>
-        <div class="trade"><div class="ico"><svg class="i"><use href="#i-badge"/></svg></div><div><b data-i18n="t7">Attendance</b><span data-i18n="t7s">Clock in and out with time and place</span></div></div>
-        <div class="trade"><div class="ico"><svg class="i"><use href="#i-board"/></svg></div><div><b data-i18n="t8">Work board</b><span data-i18n="t8s">Site-board style stamp for construction records</span></div></div>
+      <div class="show">
+        <div class="tabs" role="tablist">
+          <button class="tab reveal" role="tab" aria-selected="true" style="--c:#22c55e" data-img="assets/app-delivery.jpg"><h3 data-i18n="s1t">Delivery proof in one tap</h3><p data-i18n="s1">Status, time, exact address and GPS burned into the photo. Wrong house number? Fix it with − / +.</p></button>
+          <button class="tab reveal d1" role="tab" aria-selected="false" style="--c:#f59e0b" data-img="assets/app-construction.jpg"><h3 data-i18n="s2t">Colour-coded for every trade</h3><p data-i18n="s2">12 work types with their own statuses and colours – green done, amber in progress, red incident.</p></button>
+          <button class="tab reveal d2" role="tab" aria-selected="false" style="--c:#3b82f6" data-img="assets/app-tools.jpg"><h3 data-i18n="s3t">Tools when you need them</h3><p data-i18n="s3">One “+” button: scan a barcode, take a signature, line up a before/after, fix the address.</p></button>
+          <button class="tab reveal d3" role="tab" aria-selected="false" style="--c:#a855f7" data-img="assets/app-designer.jpg"><h3 data-i18n="s4t">Your stamp, your brand</h3><p data-i18n="s4">10 stamp styles, fonts, colours, background strength, your logo and name (Pro).</p></button>
+          <button class="tab reveal d3" role="tab" aria-selected="false" style="--c:#f472b6" data-img="assets/app-personal.jpg"><h3 data-i18n="s5t">Beautiful for personal moments</h3><p data-i18n="s5">The Journal stamp turns trips and events into dated, located memories.</p></button>
+        </div>
+        <div class="screen reveal d1"><div class="device"><img id="showImg" src="assets/app-delivery.jpg" alt="App screen" width="600" height="1339"></div></div>
       </div>
     </div>
   </section>
 
   <section style="padding-top:0">
     <div class="wrap">
-      <div class="shots">
-        <figure><img src="assets/shot-camera.jpg" width="540" height="1200" alt="Add to this proof" loading="lazy"><figcaption data-i18n="shots.1">One-tap tools</figcaption></figure>
-        <figure><img src="assets/shot-styles.jpg" width="540" height="1200" alt="Stamp styles" loading="lazy"><figcaption data-i18n="shots.2">9 stamp styles</figcaption></figure>
-        <figure><img src="assets/shot-detail.jpg" width="540" height="699" alt="Proof details" loading="lazy"><figcaption data-i18n="shots.3">Proof details</figcaption></figure>
-        <figure><img src="assets/shot-pdf.jpg" width="540" height="699" alt="PDF report" loading="lazy"><figcaption data-i18n="shots.4">PDF shift report</figcaption></figure>
+      <div class="stats reveal">
+        <div class="stat"><b>12</b><span data-i18n="st1">work types, colour-coded</span></div>
+        <div class="stat"><b>10</b><span data-i18n="st2">stamp styles</span></div>
+        <div class="stat"><b>19</b><span data-i18n="st3">languages</span></div>
+        <div class="stat"><b>0</b><span data-i18n="st4">photos uploaded by us</span></div>
       </div>
     </div>
   </section>
 
   <section style="padding-top:0">
     <div class="wrap">
-      <div class="band">
+      <div class="center reveal">
+        <span class="eyebrow" data-i18n="gal.eyebrow">Inside the app</span>
+        <h2 data-i18n="gal.title">Real screens. No mock-ups.</h2>
+      </div>
+      <div class="gallery">
+        <figure class="reveal"><div class="device"><img src="assets/app-trades.jpg" alt="Choose your work" loading="lazy" width="600" height="1339"></div><figcaption><span data-i18n="g1">Pick your work</span><span data-i18n="g1s">12 trades + personal</span></figcaption></figure>
+        <figure class="reveal d1"><div class="device"><img src="assets/app-styles.jpg" alt="Stamp styles" loading="lazy" width="600" height="1339"></div><figcaption><span data-i18n="g2">Stamp styles</span><span data-i18n="g2s">Live preview</span></figcaption></figure>
+        <figure class="reveal d2"><div class="device"><img src="assets/app-history.jpg" alt="History" loading="lazy" width="600" height="1339"></div><figcaption><span data-i18n="g3">History</span><span data-i18n="g3s">Search, filter, report</span></figcaption></figure>
+        <figure class="reveal d3"><div class="paper"><img src="assets/shot-pdf.jpg" alt="PDF report" loading="lazy" width="540" height="699"></div><figcaption><span data-i18n="g4">PDF evidence report</span><span data-i18n="g4s">Cover, index, fingerprints, declaration</span></figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap">
+      <div class="band reveal">
         <div>
           <h2 data-i18n="band.title">Clients verify it themselves – nothing uploaded</h2>
           <p data-i18n="band.text">The verify page reads the SHA-256 fingerprint, time and GPS inside the file on the viewer’s own device and checks them against the proof text – even a whole backup ZIP.</p>
-          <a class="btn primary" href="verify/"><svg class="i"><use href="#i-search"/></svg><span data-i18n="band.cta">Open the verifier</span></a>
+          <a class="btn primary" href="verify/" data-i18n="band.cta">Open the verifier</a>
         </div>
-        <ul class="checks">
-          <li><svg><use href="#i-check"/></svg><span data-i18n="band.c1">SHA-256 fingerprint match</span></li>
-          <li><svg><use href="#i-check"/></svg><span data-i18n="band.c2">Proof ID, time and place cross-check</span></li>
-          <li><svg><use href="#i-check"/></svg><span data-i18n="band.c3">Check a whole backup ZIP</span></li>
-          <li><svg><use href="#i-check"/></svg><span data-i18n="band.c4">Printable verification report</span></li>
-        </ul>
+        <div class="paper"><img src="assets/shot-detail.jpg" alt="Proof page" loading="lazy" width="540" height="699"></div>
       </div>
     </div>
   </section>
 
-  <section id="pricing" style="padding-top:0">
+  <section style="padding-top:0">
+    <div class="wrap reveal">
+      <div class="honest"><b data-i18n="hn.t">Honest note:</b><span data-i18n="hn.b">GPS comes from satellites, so position, time and the stamp work without mobile data. The street address, the network time check, ads and purchases need internet – when you’re offline the stamp shows coordinates and the address fills in later.</span></div>
+    </div>
+  </section>
+
+  <section id="pricing" style="padding-top:20px">
     <div class="wrap center">
-      <span class="eyebrow" data-i18n="price.eyebrow">Pricing</span>
-      <h2 data-i18n="price.title">Free for every shift. Pro when you’re busy.</h2>
-      <p class="sub" data-i18n="price.sub">The free version keeps full-quality proof. Pro removes the limits and the ads.</p>
+      <span class="eyebrow reveal" data-i18n="price.eyebrow">Pricing</span>
+      <h2 class="reveal" data-i18n="price.title">Free for every shift. Pro when you’re busy.</h2>
+      <p class="sub reveal" data-i18n="price.sub">The free version keeps full-quality proof. Pro removes the limits and the ads.</p>
       <div class="plans" style="text-align:left">
-        <div class="plan">
+        <div class="plan reveal">
           <h3 data-i18n="free.title">Free</h3>
           <p class="muted" style="margin:0" data-i18n="free.sub">No sign-up needed</p>
           <ul>
             <li data-i18n="free.1">30 stamped proofs a day (+10 more for a short ad)</li>
             <li data-i18n="free.2">Full resolution, GPS, address, time check</li>
-            <li data-i18n="free.3">Barcode scan, signature, before/after, 15-second video</li>
+            <li data-i18n="free.3b">All work types, scan, signature, before/after, 15-second video</li>
+            <li data-i18n="free.5">Classic, Big clock, Minimal and Journal stamps</li>
             <li data-i18n="free.4">Small banner on the History screen only, never on the camera</li>
           </ul>
         </div>
-        <div class="plan pro" data-badge="POPULAR">
+        <div class="plan pro reveal d1" data-badge="POPULAR">
           <h3 data-i18n="pro.title">Pro</h3>
           <p class="muted" style="margin:0" data-i18n="pro.sub">Monthly or yearly, price shown in the app</p>
           <ul>
             <li data-i18n="pro.1">Unlimited proofs, no ads</li>
-            <li data-i18n="pro.2">PDF shift reports any time</li>
+            <li data-i18n="pro.2b">PDF reports any time, with your company on the cover</li>
             <li data-i18n="pro.3">30-second video, your name and logo on the stamp</li>
-            <li data-i18n="pro.4">Business stamps, work board, custom status tags</li>
+            <li data-i18n="pro.4b">6 designer stamps, fonts, extra colours, background strength</li>
+            <li data-i18n="pro.5">Custom status tags</li>
           </ul>
         </div>
       </div>
@@ -192,12 +188,13 @@
 
   <section style="padding-top:0">
     <div class="wrap">
-      <h2 class="center" data-i18n="faq.title">Questions</h2>
+      <h2 class="center reveal" data-i18n="faq.title">Questions</h2>
       <div class="faq">
-        <details><summary data-i18n="q1">Does the app upload my photos?</summary><span data-i18n="a1">No. Photos, locations and settings stay on your phone. See the privacy policy.</span></details>
-        <details><summary data-i18n="q2">Does it work without signal?</summary><span data-i18n="a2">Yes. Time, GPS and the stamp work offline; the street address appears when the phone can look it up, and coordinates are always stamped.</span></details>
-        <details><summary data-i18n="q3">How can a client check a photo is real?</summary><span data-i18n="a3">Send the original file and the proof text. They open the verify page and drop the file in – it shows whether it matches, plus the time and GPS stored in the photo.</span></details>
-        <details><summary data-i18n="q4">Will my delivery platform accept these photos?</summary><span data-i18n="a4">The app makes your photo clearer and harder to dispute, but each platform decides its own cases. Always follow your platform’s photo rules too.</span></details>
+        <details class="reveal"><summary data-i18n="q1">Does the app upload my photos?</summary><span data-i18n="a1">No. Photos, locations and settings stay on your phone. See the privacy policy.</span></details>
+        <details class="reveal"><summary data-i18n="q2b">Does it work without mobile data?</summary><span data-i18n="a2b">GPS, time and the stamp work without data, because GPS uses satellites. The street address and the network time check need internet; offline, coordinates are stamped and the address appears once you’re connected.</span></details>
+        <details class="reveal"><summary data-i18n="q3">How can a client check a photo is real?</summary><span data-i18n="a3">Send the original file and the proof text. They open the verify page and drop the file in – it shows whether it matches, plus the time and GPS stored in the photo.</span></details>
+        <details class="reveal"><summary data-i18n="q5">Is the PDF report legally binding?</summary><span data-i18n="a5">It is strong supporting evidence – every photo has a fingerprint anyone can check, and you can sign the declaration page – but no app can make a document legally binding on its own. Ask the platform, insurer or court what they accept.</span></details>
+        <details class="reveal"><summary data-i18n="q4">Will my delivery platform accept these photos?</summary><span data-i18n="a4">The app makes your photo clearer and harder to dispute, but each platform decides its own cases. Always follow your platform’s photo rules too.</span></details>
         <p><a href="support/" data-i18n="more">More answers and contact →</a></p>
       </div>
     </div>
@@ -209,17 +206,49 @@
     <span>© 2026 FactCam</span>
     <a href="verify/" data-i18n="nav.verify">Verify a photo</a>
     <a href="privacy/" data-i18n="nav.privacy">Privacy</a>
-    <a href="terms/">Terms</a>
+    <a href="terms/" data-i18n="nav.terms">Terms</a>
     <a href="support/" data-i18n="nav.help">Help</a>
     <span class="sp" data-i18n="foot.na">Not affiliated with any delivery platform.</span>
   </div>
 </footer>
 <script>
-  // Swap the "POPULAR" badge text with the language.
+(() => {
+  const io = 'IntersectionObserver' in window ? new IntersectionObserver((es) => es.forEach((e) => {
+    if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+  }), { threshold: 0.12 }) : null;
+  document.querySelectorAll('.reveal').forEach((el) => io ? io.observe(el) : el.classList.add('in'));
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const words = [...document.querySelectorAll('.rotator b')];
+  let i = 0;
+  if (words.length && !reduce) {
+    setInterval(() => {
+      const cur = words[i]; i = (i + 1) % words.length; const next = words[i];
+      cur.classList.remove('on'); cur.classList.add('out');
+      setTimeout(() => cur.classList.remove('out'), 500);
+      next.classList.add('on');
+    }, 2200);
+  }
+  const track = document.querySelector('.marquee .track');
+  if (track) track.innerHTML += track.innerHTML;
+  const img = document.getElementById('showImg');
+  const tabs = [...document.querySelectorAll('.tab')];
+  let auto = null;
+  function select(t) {
+    tabs.forEach((x) => x.setAttribute('aria-selected', String(x === t)));
+    if (img.getAttribute('src') === t.dataset.img) return;
+    img.classList.add('swap');
+    setTimeout(() => { img.onload = () => img.classList.remove('swap'); img.src = t.dataset.img; }, 250);
+  }
+  tabs.forEach((t) => t.addEventListener('click', () => { clearInterval(auto); select(t); }));
+  if (tabs.length && !reduce) {
+    let k = 0; auto = setInterval(() => { k = (k + 1) % tabs.length; select(tabs[k]); }, 4500);
+  }
+  tabs.forEach((t) => { const p = new Image(); p.src = t.dataset.img; });
   document.addEventListener('langchange', (e) => {
     const p = document.querySelector('.plan.pro');
     if (p) p.dataset.badge = e.detail === 'vi' ? 'PHỔ BIẾN' : 'POPULAR';
   });
+})();
 </script>
 </body>
 </html>

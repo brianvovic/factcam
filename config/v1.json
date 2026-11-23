@@ -7,7 +7,7 @@
   "freeVideoSeconds": 15,
   "adsEnabled": true,
   "bannerEnabled": true,
-  "latestBuild": { "android": 9, "ios": 9 },
+  "latestBuild": { "android": 10, "ios": 10 },
   "minSupportedBuild": { "android": 0, "ios": 0 },
   "storeUrl": {
     "android": "https://play.google.com/store/apps/details?id=app.factcam.proof",
