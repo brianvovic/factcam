@@ -1,7 +1,7 @@
 {
-  "_readme": "FactCam remote settings. Edit on github.com and commit: live in ~1-10 min, apps pick it up within 6 h. Values are clamped inside the app (freeDailyLimit 5-200, rewardBonusProofs 0-50, maxRewardsPerDay 0-10, freeVideoSeconds 5-30). Guide: docs/OPERATIONS.md",
+  "_readme": "FactCam remote settings. Edit on github.com and commit: live in ~1-10 min, apps pick it up within 6 h. Values are clamped inside the app (freeDailyLimit 0-200, 0 = unlimited (default since v1.9), rewardBonusProofs 0-50, maxRewardsPerDay 0-10, freeVideoSeconds 5-30). Guide: docs/OPERATIONS.md",
   "schema": 1,
-  "freeDailyLimit": 30,
+  "freeDailyLimit": 0,
   "rewardBonusProofs": 10,
   "maxRewardsPerDay": 3,
   "freeVideoSeconds": 15,
