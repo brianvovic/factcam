@@ -1,0 +1,21 @@
+{
+  "_readme": "FactCam remote settings. Edit on github.com and commit: live in ~1-10 min, apps pick it up within 6 h. Values are clamped inside the app (freeDailyLimit 5-200, rewardBonusProofs 0-50, maxRewardsPerDay 0-10, freeVideoSeconds 5-30). Guide: docs/OPERATIONS.md",
+  "schema": 1,
+  "freeDailyLimit": 30,
+  "rewardBonusProofs": 10,
+  "maxRewardsPerDay": 3,
+  "freeVideoSeconds": 15,
+  "adsEnabled": true,
+  "bannerEnabled": true,
+  "latestBuild": { "android": 9, "ios": 9 },
+  "minSupportedBuild": { "android": 0, "ios": 0 },
+  "storeUrl": {
+    "android": "https://play.google.com/store/apps/details?id=app.factcam.proof",
+    "ios": ""
+  },
+  "notice": {
+    "id": "",
+    "text": { "en": "", "vi": "" },
+    "url": ""
+  }
+}

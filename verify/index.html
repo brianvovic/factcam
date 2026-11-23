@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Verify a Proof Photo – FactCam</title>
+<meta name="description" content="Check that a proof photo, video or backup has not been edited, and read its capture time and GPS. Runs entirely in your browser; files are never uploaded.">
+<meta name="theme-color" content="#0b1018">
+<link rel="icon" href="../assets/favicon.png">
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/site.js" defer></script>
+<script src="../assets/verify.js" defer></script>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="../"><img src="../assets/icon.png" alt="">FactCam</a>
+    <nav class="nav">
+      <a class="hide-sm" href="../" data-i18n="nav.features">Features</a>
+      <a href="../support/" data-i18n="nav.help">Help</a>
+      <a class="cta" href="./" aria-current="page" data-i18n="nav.verify">Verify a photo</a>
+      <span class="lang" role="group" aria-label="Language"><button data-lang="en" aria-pressed="true">EN</button><button data-lang="vi" aria-pressed="false">VI</button></span>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap" style="padding-top:40px;padding-bottom:72px">
+  <div class="no-print" style="max-width:780px">
+    <span class="eyebrow">FactCam Verify</span>
+    <h1 style="font-size:clamp(32px,4.4vw,46px);letter-spacing:-1px;line-height:1.08;margin:8px 0 10px" data-i18n="v.title">Verify a proof photo</h1>
+    <p class="muted" style="font-size:18px;margin:0 0 26px" data-i18n="v.lead">Confirm a photo or video has not been edited since it was taken, and read the time and GPS stored inside. Runs entirely on this device – files are never uploaded.</p>
+  </div>
+
+  <div class="tool">
+    <div class="panel">
+      <label class="drop" id="drop">
+        <input type="file" id="file" multiple accept="image/*,video/mp4,.zip,application/zip,.json,.txt,.csv">
+        <span class="ico"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M17 8l-5-5-5 5M12 3v12"/></svg></span>
+        <strong data-i18n="v.files">Drop photos, videos or a backup ZIP</strong>
+        <span class="muted" style="font-size:14px" data-i18n="v.files2">or tap to choose · several files at once · use the original files, not screenshots</span>
+      </label>
+    </div>
+    <div class="panel">
+      <h3 data-i18n="v.text">Paste the proof text (optional)</h3>
+      <p class="hint" data-i18n="v.text2">From the driver’s message, the PDF report or the app’s “Copy text” button. You can paste several.</p>
+      <textarea id="expected" spellcheck="false" placeholder="Paste here – e.g.&#10;Proof ID: 7F3A29C1&#10;SHA-256: 3f9a…" data-i18n-ph="v.ph"></textarea>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <div id="summary" class="grow"></div>
+    <button class="btn small no-print" id="clear" type="button" data-i18n="v.clear">Clear</button>
+    <button class="btn small no-print" id="print" type="button" data-i18n="v.print">Print / save PDF</button>
+  </div>
+  <div id="results" class="results" aria-live="polite"></div>
+
+  <div class="doc no-print" style="padding:40px 0 0">
+    <h2 data-i18n="v.how">How it works</h2>
+    <p data-i18n="v.how1">When the app saves a proof it records a SHA-256 fingerprint of the file. Changing even one pixel gives a completely different fingerprint. If the fingerprint of the file you have matches the one in the proof text, the file is exactly what the app saved.</p>
+    <p data-i18n="v.how2">Messaging apps (WhatsApp, Zalo, Messenger, e-mail “reduce size”) often re-compress photos, which changes the fingerprint even though nobody edited the picture. Ask for the file shared as a document, or from the app’s PDF/ZIP export, when you need a match.</p>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 FactCam</span>
+    <a href="../" data-i18n="nav.features">Home</a>
+    <a href="../privacy/" data-i18n="nav.privacy">Privacy</a>
+    <a href="../terms/">Terms</a>
+    <a href="../support/" data-i18n="nav.help">Help</a>
+  </div>
+</footer>
+</body>
+</html>
