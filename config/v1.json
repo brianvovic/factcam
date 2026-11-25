@@ -13,6 +13,10 @@
     "android": "https://play.google.com/store/apps/details?id=app.factcam.proof",
     "ios": ""
   },
+  "review": {
+    "sha256": "0527b934d0b197ed611180d89b0a07ca0c5be5a3f93cefa297de7da3d7c1e461",
+    "until": "2026-12-15"
+  },
   "notice": {
     "id": "",
     "text": { "en": "", "vi": "" },
